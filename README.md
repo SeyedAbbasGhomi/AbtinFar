@@ -11,19 +11,19 @@ Abtin Graphical Farsi jalali,hijri,gregorian Caneldar , free of charge for .net 
 ### Events :
 ### رخداد ها :
 
-**DateChanged**
+**DateChanged**</br>
 Returns Jalali Date Of Selected Date On AbtinFar Calendar</br>
 بر اساس تاریخ انتخاب شده در تقویم آبتین فار ، تاریخ شمسی بر می گرداند</br>
 
-**DayEvents**
+**DayEvents**</br>
 Returns Day Event Of Selected Date On AbtinFar Calendar</br>
 واقعه مربوط به تاریخ انتخاب شده در تقویم آبتین فار را بر می گرداند</br>
 
-**EnglishDateChanged**
+**EnglishDateChanged**</br>
 Returns Georgian Date Of Selected Date On AbtinFar Calendar</br>
 بر اساس تاریخ انتخاب شده در تقویم آبتین فار ، تاریخ میلادی بر می گرداند</br>
 
-**ArabicDateChanged**
+**ArabicDateChanged**</br>
 Returns Hijri Date Of Selected Date On AbtinFar Calendar</br>
 بر اساس تاریخ انتخاب شده در تقویم آبتین فار ، تاریخ قمری بر می گرداند</br>
 
@@ -31,11 +31,11 @@ Returns Hijri Date Of Selected Date On AbtinFar Calendar</br>
 ### Properties :
 ### پراپرتی ها :
 
-**HijriAdjustment(Integer)**
+**HijriAdjustment(Integer)**</br>
 Hijri Date Small Change To Recieve Correct Date</br>
 مقدار صحیح مثبت یا منفی ، جهت محاسبه تاریخ صحیح قمری</br>
 
-**CalendarStyle(string)**
+**CalendarStyle(string)**</br>
 Blue : Blue Style</br> 
 استایل آبی ,</br> 
 Red : Ret Style</br> 
@@ -43,19 +43,19 @@ Red : Ret Style</br>
 Green : Green Style</br>
 استایل سبز</br>
 
-**HijriQamariDate(string)**
+**HijriQamariDate(string)**</br>
 Keeps Hijri Date (Cant Be Set)</br>
 تاریخ قمری را در خود نگهمیدارد (نمی تواند مقداری بپذیرد)</br>
 
-**EnglishDate(Date)**
+**EnglishDate(Date)**</br>
 Keeps Georgian Date and Can Be Set to Change Date of AbtinFar Calendar</br>
 تاریخ میلادی را در خود نگهمیدارد ، با مقدار دهی آن تاریخ تقویم تغییر خواهد کرد</br>
 
-**CalendarDate(string)**
+**CalendarDate(string)**</br>
 Keeps Jalali Date and Can Be Set to Change Date of AbtinFar Calendar</br>
 تاریخ شمسی را در خود نگهمیدارد ، با مقدار دهی آم تاریخ تقویم تغییر خواهد کرد</br>
 
-**PreviousCalendarDate(string)**
+**PreviousCalendarDate(string)**</br>
 Keeps Last Jalali Date</br>
 تاریخ شمسی قبلی را در خود نگهمیدارد</br>
 
@@ -63,7 +63,7 @@ Keeps Last Jalali Date</br>
 ### Procedures :
 ### روال ها :
 
-**SetCalendarStyle**
+**SetCalendarStyle**</br>
 Set Calendar Style By Accepting string Parameter</br>
 با قبول یک پارامتر متنی ، استایل تقویم را تغییر می دهد</br>
 
@@ -86,35 +86,35 @@ SetCalendarStyle("Blue")
 ### Properties :
 ### پراپرتی ها :
 
-**ClockBackColor(Color)**
+**ClockBackColor(Color)**</br>
 Color Of Clock Face</br>
 رنگ صفحه زمینه ساعت</br>
 
-**ClockFont(Font)**
+**ClockFont(Font)**</br>
 Font Of Clock Numbers</br>
 فونت شماره های ساعت</br>
 
-**ClockFontColor(Color)**
+**ClockFontColor(Color)**</br>
 Font Color Of Clock Numbers</br>
 رنگ اعداد ساعت</br>
 
-**ClockFontRTL(Boolean)**
+**ClockFontRTL(Boolean)**</br>
 Right to left / Left to right : for Clock Numbers</br>
 راست به چپ / چپ به راست : برای شماره های ساعت</br>
 
-**ClockForeColor(Color)**
+**ClockForeColor(Color)**</br>
 Color of Clock Markers</br>
 رنگ مارکر های ساعت</br>
 
-**ClockHourColor(Color)**
+**ClockHourColor(Color)**</br>
 Color of Hour Hand</br>
 رنگ عقربه نشاندهنده ساعت</br>
 
-**ClockMinuteColor(Color)**
+**ClockMinuteColor(Color)**</br>
 Color of Minute Hand</br>
 رنگ عقربه نشاندهنده دقیقه</br>
 
-**ClockSecondColor(Color)**
+**ClockSecondColor(Color)**</br>
 Color of Second Hand</br>
 رنگ عقربه نشاندهنده ثانیه</br>
 
