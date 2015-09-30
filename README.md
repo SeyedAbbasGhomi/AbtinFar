@@ -10,7 +10,6 @@ Abtin Graphical Farsi jalali,hijri,gregorian Caneldar , free of charge for .net 
  تقویم گرافیکی شمسی ، قمری ، میلادی ، بصورت رایگان برای برنامه نویسی بر پایه دات نت</br>
 </br>
 
-Inline-style: 
 ![alt text](https://github.com/liquidsoul77/AbtinFar/tree/master/AbtinFarCalendar/Shared/SampleImage.jpg "AbtinFar Calendar Sample Image")
 
 ## AbtinFar , ComboAbtinFar
