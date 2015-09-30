@@ -351,9 +351,10 @@ a=Persian2English("1394/07/10");
 ```
 
 
-Please Give Me Feed Back To Add More Useful Features
-Good luck And Feel Free To Share IT With Other Developers
-Seyed abbas Ghomi
+Please Give Me Feed Back To Add More Useful Features</br>
+Good luck And Feel Free To Share IT With Other Developers</br>
+Seyed abbas Ghomi</br>
 
-لطفا نظرات خودتون رو ارسال کنید تا امکانات مفید بیشتری به تقویم اضافه کنم
-موفق باشید و این کامپاننت را با دیگر برنامه نویسان نیز به اشتراک بگذارید
+لطفا نظرات خودتون رو ارسال کنید تا امکانات مفید بیشتری به تقویم اضافه کنم</br>
+موفق باشید و این کامپاننت را با دیگر برنامه نویسان نیز به اشتراک بگذارید</br> 
+سید عباس قمی</br> 
