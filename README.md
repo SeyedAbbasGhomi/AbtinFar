@@ -12,18 +12,18 @@ Abtin Graphical Farsi jalali,hijri,gregorian Caneldar , free of charge for .net 
 ### رخداد ها :
 
 * DateChanged
-* Returns Jalali Date Of Selected Date On AbtinFar Calendar
-* بر اساس تاریخ انتخاب شده در تقویم آبتین فار ، تاریخ شمسی بر می گرداند
+Returns Jalali Date Of Selected Date On AbtinFar Calendar
+بر اساس تاریخ انتخاب شده در تقویم آبتین فار ، تاریخ شمسی بر می گرداند
 
-* DayEvents
-* Returns Day Event Of Selected Date On AbtinFar Calendar
-* واقعه مربوط به تاریخ انتخاب شده در تقویم آبتین فار را بر می گرداند
+**bold**DayEvents**bold**
+Returns Day Event Of Selected Date On AbtinFar Calendar
+واقعه مربوط به تاریخ انتخاب شده در تقویم آبتین فار را بر می گرداند
 
-EnglishDateChanged
+**bold**EnglishDateChanged**bold**
 Returns Georgian Date Of Selected Date On AbtinFar Calendar
 بر اساس تاریخ انتخاب شده در تقویم آبتین فار ، تاریخ میلادی بر می گرداند
 
-ArabicDateChanged
+**bold**ArabicDateChanged**bold**
 Returns Hijri Date Of Selected Date On AbtinFar Calendar
 بر اساس تاریخ انتخاب شده در تقویم آبتین فار ، تاریخ قمری بر می گرداند
 
@@ -31,11 +31,11 @@ Returns Hijri Date Of Selected Date On AbtinFar Calendar
 ### Properties :
 ### پراپرتی ها :
 
-HijriAdjustment(Integer)
+**bold**HijriAdjustment(Integer)**bold**
 Hijri Date Small Change To Recieve Correct Date
 مقدار صحیح مثبت یا منفی ، جهت محاسبه تاریخ صحیح قمری
 
-CalendarStyle
+**bold**CalendarStyle(string)**bold**
 Blue : Blue Style 
 استایل آبی , 
 Red : Ret Style 
@@ -43,19 +43,19 @@ Red : Ret Style
 Green : Green Style
 استایل سبز
 
-HijriQamariDate
+**bold**HijriQamariDate(string)**bold**
 Keeps Hijri Date (Cant Be Set)
 تاریخ قمری را در خود نگهمیدارد (نمی تواند مقداری بپذیرد)
 
-EnglishDate
+**bold**EnglishDate(Date)**bold**
 Keeps Georgian Date and Can Be Set to Change Date of AbtinFar Calendar
 تاریخ میلادی را در خود نگهمیدارد ، با مقدار دهی آن تاریخ تقویم تغییر خواهد کرد
 
-CalendarDate
+**bold**CalendarDate(string)**bold**
 Keeps Jalali Date and Can Be Set to Change Date of AbtinFar Calendar
 تاریخ شمسی را در خود نگهمیدارد ، با مقدار دهی آم تاریخ تقویم تغییر خواهد کرد
 
-PreviousCalendarDate
+**bold**PreviousCalendarDate(string)**bold**
 Keeps Last Jalali Date
 تاریخ شمسی قبلی را در خود نگهمیدارد
 
@@ -63,7 +63,7 @@ Keeps Last Jalali Date
 ### Procedures :
 ### روال ها :
 
-SetCalendarStyle
+**bold**SetCalendarStyle**bold**
 Set Calendar Style By Accepting string  Parameter:
 با قبول یک پارامتر متنی ، استایل تقویم را تغییر می دهد
 
@@ -74,4 +74,9 @@ Set Calendar Style By Accepting string  Parameter:
 "Green" : Green Style
 استایل سبز
 
+Example :
+مثال :
 
+```
+SetCalendarStyle("Blue")
+```
