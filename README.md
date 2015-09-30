@@ -6,7 +6,7 @@ Free of Charge Gift For Developers Published On Eid al-Ghadeer</br>
 Abtin Graphical Farsi jalali,hijri,gregorian Caneldar , free of charge for .net win forms developrs</br>
  تقویم گرافیکی شمسی ، قمری ، میلادی ، بصورت رایگان برای برنامه نویسی بر پایه دات نت</br>
 </br>
-## AbtinFar
+## AbtinFar , ComboAbtinFar
 
 ### Events :
 ### رخداد ها :
@@ -80,3 +80,42 @@ Example :</br>
 ```
 SetCalendarStyle("Blue")
 ```
+
+##AbtinClock
+
+### Properties :
+### پراپرتی ها :
+
+**ClockBackColor(Color)**
+Color Of Clock Face</br>
+رنگ صفحه زمینه ساعت</br>
+
+**ClockFont(Font)**
+Font Of Clock Numbers</br>
+فونت شماره های ساعت</br>
+
+**ClockFontColor(Color)**
+Font Color Of Clock Numbers
+رنگ اعداد ساعت
+
+**ClockFontRTL(Boolean)**
+Right to left / Left to right : for Clock Numbers
+راست به چپ / چپ به راست : برای شماره های ساعت
+
+**ClockForeColor(Color)**
+Color of Clock Markers</br>
+رنگ مارکر های ساعت</br>
+
+**ClockHourColor(Color)**
+Color of Hour Hand</br>
+رنگ عقربه نشاندهنده ساعت</br>
+
+**ClockMinuteColor(Color)**
+Color of Minute Hand</br>
+رنگ عقربه نشاندهنده دقیقه</br>
+
+**ClockSecondColor(Color)**
+Color of Second Hand</br>
+رنگ عقربه نشاندهنده ثانیه</br>
+
+
