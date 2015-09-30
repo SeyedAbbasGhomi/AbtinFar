@@ -215,12 +215,53 @@ Return value : String</br>
 Convert Input Double Number to Text</br>
 تبدیل عدد اعشاری ورودی به حروف</br>
 
+```
+'VB
+
+dim a as string
+a=ConvertDigits(14.37)
+
+'Result
+'a =  "چهارده ممیز سی و هفت صدم"
+```
+
+```
+//C#
+
+string a;
+a=ConvertDigits(14.37);
+
+//Result
+//a =  "چهارده ممیز سی و هفت صدم"
+
+```
+
 **DEvents(String)**</br>
 Return value : String</br>
 
 Take Jalali Date As Input And Returns the Day Event Of It</br>
 به عنوان پارامتر ورودی تاریخ شمسی دریافت و واقعه آن روز را بر می گرداند</br>
 
+```
+'VB
+
+dim a as string
+a=DEvents("1394/07/10")
+
+'Result
+'a =  "عید سعید غدیر خم"
+```
+
+```
+//C#
+
+string a;
+a=DEvents("1394/07/10");
+
+//Result
+//a =  "عید سعید غدیر خم"
+
+```
 
 **English2Persian(Date)**</br>
 Return value : String</br>
@@ -228,6 +269,28 @@ Return value : String</br>
 Convert Georgian Date to Jalali Date</br>
 تاریخ میلادی را به شمسی تبدیل می کند</br>
 
+```
+'VB
+
+dim a as string
+a=English2Persian("2015/10/02")
+'Input Date : YYYY/MM/DD
+
+'Result : YYYY/MM/DD
+'a = "1394/07/10"
+```
+
+```
+//C#
+
+string a;
+a=English2Persian(DateTime.Parse("2015/10/02"));
+//Input Date : YYYY/MM/DD
+
+//Result : YYYY/MM/DD
+//a = "1394/07/10"
+
+```
 
 **Persian2English(String)**</br>
 Return value : Date</br>
@@ -235,8 +298,62 @@ Return value : Date</br>
 Convert Jalali Date to Georgian Date</br>
 تاریخ شمسی را به میلادی تبدیل می کند</br>
 
+```
+'VB
+
+dim a as string
+a=Persian2English("1394/07/10")
+'Input Date : YYYY/MM/DD
+
+'Result : MM/DD/YYYY
+'a = "10/2/2015 12:00:00 AM"
+```
+
+```
+//C#
+
+string a;
+a=Persian2English("1394/07/10");
+//Input Date : YYYY/MM/DD
+
+//Result : MM/DD/YYYY
+//a = "10/2/2015 12:00:00 AM"
+
+```
+
 **Persian2Qamari(String)**</br>
 Return value : String</br>
 
 Convert Jalali Date to Hijri Date</br>
 تاریخ شمسی را به قمری تبدیل می کند</br>
+
+```
+'VB
+
+dim a as string
+a=Persian2English("1394/07/10")
+'Input Date : YYYY/MM/DD
+
+'Result : YYYY/MM/DD
+'a = "1436/12/19"
+```
+
+```
+//C#
+
+string a;
+a=Persian2English("1394/07/10");
+//Input Date : YYYY/MM/DD
+
+//Result : YYYY/MM/DD
+//a = "1436/12/19"
+
+```
+
+
+Please Give Me Feed Back To Add More Useful Features
+Good luck And Feel Free To Share IT With Other Developers
+Seyed abbas Ghomi
+
+لطفا نظرات خودتون رو ارسال کنید تا امکانات مفید بیشتری به تقویم اضافه کنم
+موفق باشید و این کامپاننت را با دیگر برنامه نویسان نیز به اشتراک بگذارید
