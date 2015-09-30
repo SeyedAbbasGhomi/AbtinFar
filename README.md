@@ -11,13 +11,13 @@ Abtin Graphical Farsi jalali,hijri,gregorian Caneldar , free of charge for .net 
 ### Events :
 ### رخداد ها :
 
-DateChanged
-Returns Jalali Date Of Selected Date On AbtinFar Calendar
-بر اساس تاریخ انتخاب شده در تقویم آبتین فار ، تاریخ شمسی بر می گرداند
+* DateChanged
+* Returns Jalali Date Of Selected Date On AbtinFar Calendar
+* بر اساس تاریخ انتخاب شده در تقویم آبتین فار ، تاریخ شمسی بر می گرداند
 
-DayEvents
-Returns Day Event Of Selected Date On AbtinFar Calendar
-واقعه مربوط به تاریخ انتخاب شده در تقویم آبتین فار را بر می گرداند
+* DayEvents
+* Returns Day Event Of Selected Date On AbtinFar Calendar
+* واقعه مربوط به تاریخ انتخاب شده در تقویم آبتین فار را بر می گرداند
 
 EnglishDateChanged
 Returns Georgian Date Of Selected Date On AbtinFar Calendar
