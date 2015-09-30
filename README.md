@@ -31,9 +31,9 @@ Returns Hijri Date Of Selected Date On AbtinFar Calendar</br>
 ### Properties :
 ### پراپرتی ها :
 
-**HijriAdjustment(Integer)**</br>
-Hijri Date Small Change To Recieve Correct Date</br>
-مقدار صحیح مثبت یا منفی ، جهت محاسبه تاریخ صحیح قمری</br>
+**CalendarDate(string)**</br>
+Keeps Jalali Date and Can Be Set to Change Date of AbtinFar Calendar</br>
+تاریخ شمسی را در خود نگهمیدارد ، با مقدار دهی آم تاریخ تقویم تغییر خواهد کرد</br>
 
 **CalendarStyle(string)**</br>
 Blue : Blue Style</br> 
@@ -43,17 +43,21 @@ Red : Ret Style</br>
 Green : Green Style</br>
 استایل سبز</br>
 
-**HijriQamariDate(string)**</br>
-Keeps Hijri Date (Cant Be Set)</br>
-تاریخ قمری را در خود نگهمیدارد (نمی تواند مقداری بپذیرد)</br>
-
 **EnglishDate(Date)**</br>
 Keeps Georgian Date and Can Be Set to Change Date of AbtinFar Calendar</br>
 تاریخ میلادی را در خود نگهمیدارد ، با مقدار دهی آن تاریخ تقویم تغییر خواهد کرد</br>
 
-**CalendarDate(string)**</br>
-Keeps Jalali Date and Can Be Set to Change Date of AbtinFar Calendar</br>
-تاریخ شمسی را در خود نگهمیدارد ، با مقدار دهی آم تاریخ تقویم تغییر خواهد کرد</br>
+**HijriAdjustment(Integer)**</br>
+Hijri Date Small Change To Recieve Correct Date</br>
+مقدار صحیح مثبت یا منفی ، جهت محاسبه تاریخ صحیح قمری</br>
+
+**HijriQamariDate(string)**</br>
+Keeps Hijri Date (Cant Be Set)</br>
+تاریخ قمری را در خود نگهمیدارد (نمی تواند مقداری بپذیرد)</br>
+
+**TodayDate()**
+Set Calendar Date to Today Date</br>
+تاریخ تقویم را با تاریخ روز تنظیم می کند</br>
 
 **PreviousCalendarDate(string)**</br>
 Keeps Last Jalali Date</br>
@@ -117,5 +121,4 @@ Color of Minute Hand</br>
 **ClockSecondColor(Color)**</br>
 Color of Second Hand</br>
 رنگ عقربه نشاندهنده ثانیه</br>
-
 
