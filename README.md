@@ -122,3 +122,121 @@ Color of Minute Hand</br>
 Color of Second Hand</br>
 رنگ عقربه نشاندهنده ثانیه</br>
 
+
+##AbtinFarConvertor
+
+### Functions :
+### فانکشن ها:
+
+**AddDays(Integer, String)**</br>
+Return value : String</br>
+
+add X dayes to the given date and return the result</br> 
+تعداد روز مشخص شده را به تاریخ ورودی اضافه و نتیجه را بر میگرداند</br>
+
+```
+'VB
+
+dim a as string
+a=AddDays(5, "1394/07/10")
+
+'Result
+'a =  "1394/07/15"
+```
+
+```
+//C#
+
+string a;
+a=AddDays(5, "1394/07/10");
+
+//Result
+//a =  "1394/07/15"
+
+```
+
+**AddMonth(Integer, String)**</br>
+Return value : String</br>
+
+add X Monthes to the given date and return the result</br> 
+تعداد ماه مشخص شده را به تاریخ ورودی اضافه و نتیجه را بر می گرداند</br>
+
+```
+'VB
+
+dim a as string
+a=AddMonth(5, "1394/07/10")
+
+'Result
+'a =  "1394/12/10"
+```
+
+```
+//C#
+
+string a;
+a=AddMonth(5, "1394/07/10");
+
+//Result
+//a =  "1394/12/10"
+
+```
+
+**AddYear(Integer, String)**</br>
+Return value : String</br>
+
+add X Years to the given date and return the result</br> 
+تعداد سال مشخص شده را به تاریخ ورودی اضافه و نتیجه را بر می گرداند</br>
+
+```
+'VB
+
+dim a as string
+a=AddYear(5, "1394/07/10")
+
+'Result
+'a =  "1399/07/10"
+```
+
+```
+//C#
+
+string a;
+a=AddYear(5, "1394/07/10");
+
+//Result
+//a =  "1399/07/10"
+
+```
+
+**ConvertDigits(Double)**</br>
+Return value : String</br>
+
+Convert Input Double Number to Text</br>
+تبدیل عدد اعشاری ورودی به حروف</br>
+
+**DEvents(String)**</br>
+Return value : String</br>
+
+Take Jalali Date As Input And Returns the Day Event Of It</br>
+به عنوان پارامتر ورودی تاریخ شمسی دریافت و واقعه آن روز را بر می گرداند</br>
+
+
+**English2Persian(Date)**</br>
+Return value : String</br>
+
+Convert Georgian Date to Jalali Date</br>
+تاریخ میلادی را به شمسی تبدیل می کند</br>
+
+
+**Persian2English(String)**</br>
+Return value : Date</br>
+
+Convert Jalali Date to Georgian Date</br>
+تاریخ شمسی را به میلادی تبدیل می کند</br>
+
+**Persian2Qamari(String)**</br>
+Return value : String</br>
+
+Convert Jalali Date to Hijri Date</br>
+تاریخ شمسی را به قمری تبدیل می کند</br>
