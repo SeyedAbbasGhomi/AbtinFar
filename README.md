@@ -1,7 +1,7 @@
 #AbtinFar Calendar Component
 #کامپوننت تقویم آبتین فار
-Free of Charge Gift For Developers Published On Eid al-Ghadeer 
-هدیه ای به مناسبت عید غدیر خم به برنامه نویسان
+Free of Charge Gift For Developers Published On Eid al-Ghadeer *.
+هدیه ای به مناسبت عید غدیر خم به برنامه نویسان  
 
 Abtin Graphical Farsi jalali,hijri,gregorian Caneldar , free of charge for .net win forms developrs
  تقویم گرافیکی شمسی ، قمری ، میلادی ، بصورت رایگان برای برنامه نویسی بر پایه دات نت
