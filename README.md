@@ -95,12 +95,12 @@ Font Of Clock Numbers</br>
 فونت شماره های ساعت</br>
 
 **ClockFontColor(Color)**
-Font Color Of Clock Numbers
-رنگ اعداد ساعت
+Font Color Of Clock Numbers</br>
+رنگ اعداد ساعت</br>
 
 **ClockFontRTL(Boolean)**
-Right to left / Left to right : for Clock Numbers
-راست به چپ / چپ به راست : برای شماره های ساعت
+Right to left / Left to right : for Clock Numbers</br>
+راست به چپ / چپ به راست : برای شماره های ساعت</br>
 
 **ClockForeColor(Color)**
 Color of Clock Markers</br>
