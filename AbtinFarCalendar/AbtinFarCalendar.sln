@@ -10,6 +10,7 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Shared", "Shared", "{7EB5E1A3-2D53-4416-8961-340C0299880E}"
 	ProjectSection(SolutionItems) = preProject
 		Shared\abtinFar.dll = Shared\abtinFar.dll
+		Shared\SampleImage.jpg = Shared\SampleImage.jpg
 	EndProjectSection
 EndProject
 Global
