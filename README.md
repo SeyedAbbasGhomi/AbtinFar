@@ -9,6 +9,9 @@ Free of Charge Gift For Developers Published On Eid al-Ghadeer</br>
 Abtin Graphical Farsi jalali,hijri,gregorian Caneldar , free of charge for .net win forms developrs</br>
  تقویم گرافیکی شمسی ، قمری ، میلادی ، بصورت رایگان برای برنامه نویسی بر پایه دات نت</br>
 </br>
+
+![alt text](https://raw.githubusercontent.com/liquidsoul77/AbtinFar/master/AbtinFarCalendar/Shared/SampleImage.jpg "AbtinFar Calendar Sample Image")
+
 ## AbtinFar , ComboAbtinFar
 
 ### Events :
@@ -141,7 +144,7 @@ add X dayes to the given date and return the result</br>
 'VB
 
 dim a as string
-a=AddDays(5, "1394/07/10")
+a=AbtinFarConvertor1.AddDays(5, "1394/07/10")
 
 'Result
 'a =  "1394/07/15"
@@ -151,7 +154,7 @@ a=AddDays(5, "1394/07/10")
 //C#
 
 string a;
-a=AddDays(5, "1394/07/10");
+a=AbtinFarConvertor1.AddDays(5, "1394/07/10");
 
 //Result
 //a =  "1394/07/15"
@@ -168,7 +171,7 @@ add X Monthes to the given date and return the result</br>
 'VB
 
 dim a as string
-a=AddMonth(5, "1394/07/10")
+a=AbtinFarConvertor1.AddMonth(5, "1394/07/10")
 
 'Result
 'a =  "1394/12/10"
@@ -178,7 +181,7 @@ a=AddMonth(5, "1394/07/10")
 //C#
 
 string a;
-a=AddMonth(5, "1394/07/10");
+a=AbtinFarConvertor1.AddMonth(5, "1394/07/10");
 
 //Result
 //a =  "1394/12/10"
@@ -195,7 +198,7 @@ add X Years to the given date and return the result</br>
 'VB
 
 dim a as string
-a=AddYear(5, "1394/07/10")
+a=AbtinFarConvertor1.AddYear(5, "1394/07/10")
 
 'Result
 'a =  "1399/07/10"
@@ -205,7 +208,7 @@ a=AddYear(5, "1394/07/10")
 //C#
 
 string a;
-a=AddYear(5, "1394/07/10");
+a=AbtinFarConvertor1.AddYear(5, "1394/07/10");
 
 //Result
 //a =  "1399/07/10"
@@ -222,7 +225,7 @@ Convert Input Double Number to Text</br>
 'VB
 
 dim a as string
-a=ConvertDigits(14.37)
+a=AbtinFarConvertor1.ConvertDigits(14.37)
 
 'Result
 'a =  "چهارده ممیز سی و هفت صدم"
@@ -232,7 +235,7 @@ a=ConvertDigits(14.37)
 //C#
 
 string a;
-a=ConvertDigits(14.37);
+a=AbtinFarConvertor1.ConvertDigits(14.37);
 
 //Result
 //a =  "چهارده ممیز سی و هفت صدم"
@@ -249,7 +252,7 @@ Take Jalali Date As Input And Returns the Day Event Of It</br>
 'VB
 
 dim a as string
-a=DEvents("1394/07/10")
+a=AbtinFarConvertor1.DEvents("1394/07/10")
 
 'Result
 'a =  "عید سعید غدیر خم"
@@ -259,7 +262,7 @@ a=DEvents("1394/07/10")
 //C#
 
 string a;
-a=DEvents("1394/07/10");
+a=AbtinFarConvertor1.DEvents("1394/07/10");
 
 //Result
 //a =  "عید سعید غدیر خم"
@@ -276,7 +279,7 @@ Convert Georgian Date to Jalali Date</br>
 'VB
 
 dim a as string
-a=English2Persian("2015/10/02")
+a=AbtinFarConvertor1.English2Persian("2015/10/02")
 'Input Date : YYYY/MM/DD
 
 'Result : YYYY/MM/DD
@@ -287,7 +290,7 @@ a=English2Persian("2015/10/02")
 //C#
 
 string a;
-a=English2Persian(DateTime.Parse("2015/10/02"));
+a=AbtinFarConvertor1.English2Persian(DateTime.Parse("2015/10/02"));
 //Input Date : YYYY/MM/DD
 
 //Result : YYYY/MM/DD
@@ -305,7 +308,7 @@ Convert Jalali Date to Georgian Date</br>
 'VB
 
 dim a as string
-a=Persian2English("1394/07/10")
+a=AbtinFarConvertor1.Persian2English("1394/07/10")
 'Input Date : YYYY/MM/DD
 
 'Result : MM/DD/YYYY
@@ -316,7 +319,7 @@ a=Persian2English("1394/07/10")
 //C#
 
 string a;
-a=Persian2English("1394/07/10");
+a=AbtinFarConvertor1.Persian2English("1394/07/10");
 //Input Date : YYYY/MM/DD
 
 //Result : MM/DD/YYYY
@@ -334,7 +337,7 @@ Convert Jalali Date to Hijri Date</br>
 'VB
 
 dim a as string
-a=Persian2English("1394/07/10")
+a=AbtinFarConvertor1.Persian2English("1394/07/10")
 'Input Date : YYYY/MM/DD
 
 'Result : YYYY/MM/DD
@@ -345,7 +348,7 @@ a=Persian2English("1394/07/10")
 //C#
 
 string a;
-a=Persian2English("1394/07/10");
+a=AbtinFarConvertor1.Persian2English("1394/07/10");
 //Input Date : YYYY/MM/DD
 
 //Result : YYYY/MM/DD
